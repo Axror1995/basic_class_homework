@@ -7,9 +7,16 @@ create an object named "p1" whose name is "Anvar"
 create an object named "p2" whose name is "Shavkat"
 */
 class Person {
-  String name = '';
-  String p1 = 'Anvar';
-  String p2= 'Shavkat';
+  String name = 'axror';
+
+  Person(String name) {
+    this.name = name;
+  }
 }
 
-void main() {}
+void main() {
+  Person p1 = Person('Anvar');
+  Person p2 = Person('Shavkat');
+  print(p1.name);
+  print(p2.name);
+}
