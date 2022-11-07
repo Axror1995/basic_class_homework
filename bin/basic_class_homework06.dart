@@ -3,5 +3,13 @@
 /*
 Create a "Person" class that has a name("name") and a age("age")
 */
+class Person {
+  String name = 'Axror';
+  int ege = 27;
+}
 
-void main() {}
+void main() {
+  Person a = Person();
+  print(a.name);
+
+}
